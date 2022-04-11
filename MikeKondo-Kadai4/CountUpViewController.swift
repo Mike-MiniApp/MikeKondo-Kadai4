@@ -13,7 +13,7 @@ class CountUpViewController: UIViewController {
 
     @IBAction private func tappedCountUpButton(_ sender: Any) {
         let count: Int = Int(countLabel.text ?? "") ?? 0
-        countLabel.text = String(count+1)
+        countLabel.text = String(count + 1)
     }
 
     @IBAction private func tappedCountClearButton(_ sender: Any) {
